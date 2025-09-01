@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, CardHeader, CardTitle, CardContent } from "../Components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Button } from "../Components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter} from "../Components/ui/dialog"
 import { Label } from '../Components/ui/label'
 import { Input } from '../Components/ui/input'

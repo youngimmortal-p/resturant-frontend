@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from "@/components/ui/button"
+import { Button } from "../ui/button"
 import { useState } from 'react'
 import { Menu, X} from "lucide-react"
 import { Link } from 'react-router-dom'

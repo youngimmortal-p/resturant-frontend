@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from "@/components/ui/button"
+import { Button } from "../Components/ui/button"
 const Contact = () => {
   return (
     <section className='py-16 px-6 bg-gray-50' >

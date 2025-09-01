@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from "@/components/ui/button"
+import { Button } from "../ui/button"
 const Hero = () => {
   return (
     <section className='relative h-[80vh] flex items-center justify-center bg-[url("/src/assets/bg2.jpg")] bg-cover bg-center'>
