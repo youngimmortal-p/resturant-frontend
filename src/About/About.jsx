@@ -1,10 +1,10 @@
 import React from 'react'
-
+import interior from '@/assets/resturant interior.jpg'
 const About = () => {
   return (
     <section className='py-16 px-6 bg-white'>
       <div className='max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center'>
-        <img src='/src/assets/resturant interior.jpg' alt='Resturant Interior'
+        <img src={interior} alt='Resturant Interior'
         className='rounded-2xl shadow-lg'
         />
 
