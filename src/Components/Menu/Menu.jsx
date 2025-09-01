@@ -3,14 +3,20 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/card'
 import { Button } from "../ui/button"
 import { useState } from 'react'
 import { useEffect } from 'react'
+import margheritaPizza from '@/assets/Margherita pizza.jpg'
+import cheeseburger from '@/assets/cheeseburger.jpg'
+import caesarSalad from '@/assets/caesar salad.jpg'
+import pepperoniPizza from '@/assets/pepperoni pizza.jpg'
+import veggieBurger from '@/assets/veggi burger.jpg'
+import greekSalad from '@/assets/greek salad.jpg'
 
 const foodItems = [
-  {id: 1, name: "Margherita Pizza", category: "Pizza", price: "$12", image: "/src/assets/Margherita pizza.jpg" },
-  {id: 2, name: "Cheeseburger", category: "Burgers", price: "$10", image: "/src/assets/cheeseburger.jpg" },
-  {id: 3, name: "Caesar Salad", category: "Salads", price: "$8", image: "/src/assets/caesar salad.jpg"},
-  {id: 4, name: "Pepperoni Pizza", category: "Pizza", price: "$14", image: "/src/assets/pepperoni pizza.jpg"},
-  {id: 5, name: "Veggie Burger", category: "Burgers", price: "$9", image: "/src/assets/veggi burger.jpg"},
-  {id: 6, name: "Greek Salad", category: "Salads", price: "$7", image: "/src/assets/greek salad.jpg"},
+  {id: 1, name: "Margherita Pizza", category: "Pizza", price: "$12", image: margheritaPizza },
+  {id: 2, name: "Cheeseburger", category: "Burgers", price: "$10", image: cheeseburger },
+  {id: 3, name: "Caesar Salad", category: "Salads", price: "$8", image: caesarSalad},
+  {id: 4, name: "Pepperoni Pizza", category: "Pizza", price: "$14", image: pepperoniPizza},
+  {id: 5, name: "Veggie Burger", category: "Burgers", price: "$9", image: veggieBurger},
+  {id: 6, name: "Greek Salad", category: "Salads", price: "$7", image: greekSalad},
 ]
 
 const categories = ["All", "Pizza", "Burgers", "Salads"]

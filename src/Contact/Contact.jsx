@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "../Components/ui/button"
+import mapImg from '@/assets/google map.jpg'
 const Contact = () => {
   return (
     <section className='py-16 px-6 bg-gray-50' >
@@ -31,7 +32,7 @@ const Contact = () => {
         </div>
 
         <div className='rounded-2xl overflow-hidden shadow-lg'>
-            <iframe src="/src/assets/google map.jpg" title='Resturant Location'
+            <iframe src= {mapImg} title='Resturant Location'
             width="100%"
             height="350"
             allowFullScreen=''
