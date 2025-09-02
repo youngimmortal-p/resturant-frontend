@@ -6,6 +6,7 @@ import { Label } from '../Components/ui/label'
 import { Input } from '../Components/ui/input'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import pizza from '@/assets/Margherita pizza.jpg'
 
 const STORAGE_KEY = "foodie_menu"
 const Dashboard = () => {
@@ -56,7 +57,7 @@ const Dashboard = () => {
       name,
       category,
       price,
-      image: image || "/src/assets/Margherita pizza.jpg"
+      image: image || pizza
     }
     setMenu((m) => [newItem, ...m])
     setFormData({name: "", category: "", price: "", image: ""})
