@@ -10,7 +10,6 @@ import pizza from '@/assets/Margherita pizza.jpg'
 
 const STORAGE_KEY = "foodie_menu"
 const Dashboard = () => {
-
   const [menu, setMenu] = useState([])
 
   const [formData, setFormData] = useState({
@@ -28,7 +27,7 @@ const Dashboard = () => {
     price: "",
     image: ""
   })
-
+  
   useEffect(() => {
     const raw = localStorage.getItem(STORAGE_KEY);
     if(raw){
@@ -127,11 +126,11 @@ const Dashboard = () => {
             </div>
 
             <div>
-              <Label htmlFor="image" className='mb-3'>Image Url</Label>
+              <Label htmlFor="image" className='mb-3'>Image Upload</Label>
               <Input 
               id='image'
               name='image'
-              placeholder='http://...'
+              placeholder="http://..."
               value={formData.image}
               onChange={handleInput}
               />
