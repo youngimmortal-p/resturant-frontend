@@ -23,7 +23,7 @@ const Login = ({ onLogin }) => {
    
   return (
     <section className='flex items-center justify-center min-h-screen bg-gray-50'>
-        <Link to="/" className='font-bold text-red-600 text-8xl mr-30'>Foodie</Link>
+       
         <Card className='w-full max-w-sm p-6'>
             <CardHeader>
                 <CardTitle>Admin Login</CardTitle>
